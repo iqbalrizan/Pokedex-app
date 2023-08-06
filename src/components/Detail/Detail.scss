@@ -36,7 +36,7 @@
     .wrapper {
         
         height: 70vh;
-        width: 80%;
+        width: 85%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -188,6 +188,7 @@
 @media screen and (max-width : 500px) {
     .detail {
         .wrapper {
+            width: 90% !important;
             height: 80vh !important;
             .poke-detail {
                 display: flex;
